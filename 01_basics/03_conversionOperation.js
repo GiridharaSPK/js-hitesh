@@ -20,3 +20,29 @@ console.log(typeof valInNum);
 // "" - false else true
 
 //String(score) - string
+
+
+//************operations***********/
+
+console.log(2+3);
+console.log(2-3);
+console.log(2*3);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+
+let s1 = "hi"
+let s2 = " g"
+console.log(s1+s2);
+
+console.log("1" + 2 + 3);//123
+console.log(1 + "2" + 3);//123
+console.log(1 + 2 + "3");//33
+
+console.log(+true); // 1
+console.log(+""); // 0
+
+let count = 1;
+
+console.log(count++);
+console.log(++count);
